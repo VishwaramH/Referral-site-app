@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+
+.analytics {
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+.charts-1, .charts-2 {
+  height: 90vh;
+  width: 90vh;
+  display: flex;
+  margin: 30px;
+}
+
+.charts-1 {
+  margin-bottom: 0;
+}
+
+.charts-2 {
+  margin-top: 0;
+}

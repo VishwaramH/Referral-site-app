@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+
+.all {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Baloo Chettan 2', cursive;
+}
+
+.head {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 40px;
+  font-size: 42px;
+}
+
+.login__page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.login__page h1 {
+  text-align: center;
+  border-bottom: 1px solid silver;
+  padding: 20px;
+  color: #1a196e;
+}
+
+.admin__login, .user__login {
+  padding: 8px;
+  margin: 15px;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 18px;
+  background-color: crimson;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.admin__login:hover, .user__login:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}

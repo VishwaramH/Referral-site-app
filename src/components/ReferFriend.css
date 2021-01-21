@@ -1,0 +1,40 @@
+.refer {
+  margin: 0;
+  padding: 0;
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  height: 100vh;
+}
+
+.referral__form {
+  padding: 160px 500px;
+}
+
+.referral__form h1 {
+  margin: 0;
+  color: crimson;
+}
+
+.referral__form div {
+  margin-bottom: 20px;
+}
+
+.referral__form input {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 20px;
+}
+
+
+.button {
+  background-color: crimson;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
